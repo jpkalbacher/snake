@@ -6,6 +6,10 @@ html, body, figure, figcaption, ul, li, h1 {
   text-align: inherit;
 }
 
+h1 {
+  color: #4FFF56;
+}
+
 ul {
   list-style: none;
 }
@@ -23,7 +27,9 @@ h1 {
 
 figure {
   display: inline-block;
-  border: 10px solid black;
+  border: 10px solid #4FFF56;
+;
+  background-color: black;
 }
 
 ul {
@@ -42,9 +48,13 @@ li {
 }
 
 .apple {
-  background: red;
+  background: #4FFF56;
 }
 
 .snake {
-  background: green;
+  background: #4FFF56;
+}
+
+html {
+  background-color: black;
 }
